@@ -1,13 +1,15 @@
 fn main() {
-    let mut x = 1;
-    let mut y = 2;
-    let mut t = 0;
-    while y < 4000000 {
-      if y % 2 == 0 {
-        t += y;
-      }
-      y += x;
-      x = y - x;
+    let mut a = 1;
+    let mut b = 1;
+    let mut c = 2;
+    let mut sum = 0;
+    let l = 4000000;
+    while c < l {
+      sum += c;
+      a = c + b;
+      b = c + a;
+      c = a + b;
+      // println!("{}", c);
     }
-    println!("Sum of the even-valued Fibonacci numbers less than 4,000,000 is {}", t);
+    println!("Sum of the even-valued Fibonacci numbers less than 4,000,000 is {}", sum);
   }

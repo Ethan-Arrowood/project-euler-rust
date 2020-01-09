@@ -3,4 +3,5 @@
 members = [
   "mult_3_and_5",
   "even_fib_nums",
+  "largest_prime_factor",
 ]

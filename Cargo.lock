@@ -5,6 +5,10 @@ name = "even_fib_nums"
 version = "0.1.0"
 
 [[package]]
+name = "largest_prime_factor"
+version = "0.1.0"
+
+[[package]]
 name = "mult_3_and_5"
 version = "0.1.0"
 
